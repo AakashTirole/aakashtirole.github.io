@@ -1,0 +1,633 @@
+/************For big screens************/
+@media screen and (min-width: 1800px){
+    header nav .main-menu ul li a{
+        font-size: 55px;
+    }
+    header .toggle button .icon .line:nth-child(1) {
+        width: 32px;
+    }
+    header .toggle button .icon .line:nth-child(2) {
+        width: 36px;
+    }
+    header .toggle button .icon .line:nth-child(3) {
+        width: 26px;
+    }
+    header .toggle button .txt{
+        font-size: 10px;
+        letter-spacing: 0.1em;
+    }
+    header .toggle button .icon{
+        margin-right: 40px;
+    }
+    header .toggle button{
+        width: 50px;
+    }
+    header .toggle:hover .line:nth-child(1) {
+        width: 22px !important;
+    }
+    header .toggle:hover .line:nth-child(2) {
+        width: 34px !important;
+    }
+    header .toggle:hover .line:nth-child(3) {
+        width: 20px !important;
+    }
+    .menuOpen header .toggle .line:nth-child(2),
+    .menuOpen header .toggle .line:nth-child(1){
+        width: 40px !important;
+    }
+    header nav .right-menu .span2,
+    .contact-page .intro-text p{
+        font-size: 18px;
+    }
+    header nav .right-menu .span1,
+    .right-social-links ul li a{
+        font-size: 22px;
+    }
+    header nav .right-menu .social-icon-style ul li a{
+        font-size: 24px;
+    }
+    header nav .right-menu .social-icon-style ul{
+        margin: 0 -15px;
+    }
+    header nav .right-menu .social-icon-style ul li{
+        padding: 0 15px;
+    }
+    header nav .main-menu ul li a sup{
+        font-size: 16px;
+    }
+    .welcome-section .first-me .txt h2{
+        font-size: 90px;
+    }
+    .welcome-section .first-me .txt p{
+        font-size: 16px;
+    }
+    .welcome-section .first-me .img img {
+        width: 250px;
+    }
+    .welcome-section .hello-scrolldown .txt{
+        font-size: 12px;
+    }
+    .container{
+        max-width: 1440px;
+    }
+    .welcome-section .intro-text h2{
+        font-size: 90px;
+    }
+    .welcome-section .intro-text h2>span{
+        font-size: 60px;
+    }
+    .welcome-section .intro-text .about-me{
+        font-size: 24px;
+    }
+    .welcome-section .intro-text .about-me>span{
+        font-size: 35px;
+    }
+    .welcome-section .intro-text .signature{
+        width: 300px;
+    }
+    .my-work .heading h1{
+        font-size: 80px;
+    }
+    .my-work .heading p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .my-work .work-collection .list-one .project-item .project-wraper .project-block h2{
+        font-size: 22px;
+    }
+    .my-work .work-collection .list-one .project-item .project-wraper .project-block p{
+        font-size: 15px;
+    }
+    .my-work .all-project-link h3{
+        font-size: 26px;
+    }
+    .my-work .all-project-link .tag{
+        font-size: 19px;
+    }
+    footer p{
+        font-size: 20px;
+    }
+    footer ul li a {
+        font-size: 25px;
+    }
+    footer ul{
+        margin: 0 -15px;
+    }
+    footer ul li{
+        padding: 0 15px;
+    }
+    .scrolldown .txt,
+    .scrollToTop .txt{
+        font-size: 15px;
+    }
+    .portfolio .portfolio-tabs ul li button{
+        font-size: 22px;
+        padding: 5px 20px;
+    }
+    .aakash-bio .about-me .about-txt h2,
+    .contact-card .contact-card-body h3{
+        font-size: 50px;
+    }
+    .aakash-bio .about-me .about-txt h3{
+        font-size: 18px;
+    }
+    .aakash-bio .about-me .about-txt h2 span{
+        font-size: 55px;
+    }
+    .aakash-bio .about-me .title,
+    .aakash-bio .about-me .contact ul li a i,
+    .aakash-bio .about-me .download-cv a,
+    .contact-card .contact-card-body h2{
+        font-size: 24px;
+    }
+    .aakash-bio .about-me .about-txt p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .aakash-bio .about-me .contact p a,
+    .aakash-bio .about-me,
+    .contact-card .contact-card-body .logo-links .card-links ul li a{
+        font-size: 20px;
+    }
+    .contact-card .contact-card-body h4 a{
+        font-size: 30px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .form-group input {
+        line-height: 60px;
+        height: 60px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .form-group .placeholder{
+        top: 20px;
+        left: 20px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .form-group input, 
+    .contact-page .contact-form-wrapper .contact-form .form-group textarea{
+        padding: 0 20px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .form-group textarea {
+        padding: 15px 20px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .form-group {
+        margin-bottom: 40px;
+    }
+    .contact-page .contact-form .form-group.p-text .placeholder{
+        font-size: 16px;
+        top: -26px;
+    }
+    .contact-page .contact-form-wrapper .img-txt .txt p a,
+    .contact-page .direct-mail .mail-id a{
+        font-size: 17px;
+    }
+    .contact-page .direct-mail h2{
+        font-size: 16px;
+    }
+    .contact-page .contact-form-wrapper .img-txt .social-media ul li a{
+        font-size: 28px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .buttons button{
+        font-size: 18px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .title{
+        font-size: 70px;
+    }
+}
+/************END For big screens************/
+
+@media (min-width: 1191px) and (max-width: 1391px){
+    header nav .nav-wrapper1{
+        width: 80%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1191px){
+    header nav .nav-wrapper1{
+        width: 85%;
+    }
+    header nav .main-menu ul li a{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .my-work .work-collection .list-one .project-item {
+        padding: 20px;
+    }
+    .my-work .work-collection .list-one {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .my-work .work-collection{
+        /* margin: 0 -10px; */
+    }
+    .portfolio .work-collection .list-one {
+        grid-template-columns: 1fr 1fr;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    header nav .main-menu ul li a {
+        font-size: 30px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .title{
+        font-size: 50px;
+    }
+    .contact-page .contact-form-wrapper{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .scrolldown{
+        left: 54px;
+    }
+    .scrollToTop{
+        right: 60px;
+    }
+    /****header nav START****/
+    
+    header nav .main-menu ul li {
+        padding-left: 0;
+        float: initial;
+        padding: 10px 0 10px 40px;
+        width: 100%;
+    }
+    header nav .main-menu ul li a{
+        font-size: 30px;
+    }
+    header nav .nav-wrapper1{
+        width: 100%;
+        padding: 40px;
+    }
+    header nav .main-menu ul li a sup{
+        display: block;
+    }
+    /****welcome-section START****/
+	.welcome-section .custom-container{
+        padding: 0;
+    }
+    header .logo{
+        left: 0;
+        padding: 15px;
+    }
+    header .toggle{
+        right: 0;
+        padding: 20px;
+    }
+    .welcome-section .left, 
+    .welcome-section .right {
+        height: calc(100vh - 0px);
+        width: 100%;
+    }
+    .welcome-section .first-me .img img {
+        width: 200px;
+    }
+    .welcome-section .first-me .txt h2{
+        font-size: 45px;
+        line-height: normal;
+    }
+    .welcome-section .first-me .txt p {
+        margin: 10px 0 0;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .welcome-section .first-me .txt {
+        margin-top: 30px;
+    }
+    .welcome-section .first-me .txt h2 span.name:after{
+        bottom: 0;
+    }
+    .welcome-section .second-me {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        padding: 1rem 1.5rem;
+    }
+    .welcome-section .my-avatar{
+        display: none;
+    }
+    .welcome-section .intro-text h2>span{
+        font-size: 35px;
+    }
+    .welcome-section .intro-text h2{
+        font-size: 50px;
+    }
+    .welcome-section .intro-text{
+        padding: 5rem 0 0;
+    }
+    .welcome-section .intro-text .get-started{
+        margin: 3em 0 0;
+    }
+    .welcome-section .hello-scrolldown .txt{
+        color: #000;
+    }
+    .welcome-section .hello-scrolldown .arrow svg{
+        fill: #000;
+    }
+    .welcome-section .hello-scrolldown{
+        -webkit-transform: rotate(-90deg) translateY(-30px);
+        -moz-transform: rotate(-90deg) translateY(-30px);
+        -ms-transform: rotate(-90deg) translateY(-30px);
+        -o-transform: rotate(-90deg) translateY(-30px);
+        transform: rotate(-90deg) translateY(-30px);
+        bottom: 40px;
+    }
+    .welcome-section .intro-text .get-started a:hover .behind{
+        width: 60px;
+    }
+    .welcome-section .intro-text .get-started a {
+        font-size: 14px;
+        width: 210px;
+        height: 60px;
+    }
+    .welcome-section .first-me{
+        top: 45%;
+    }
+    /******.my-work START******/
+    .my-work{
+        padding: 60px 15px;
+    }
+    .my-work .heading h1{
+        font-size: 40px;
+    }
+    .my-work .heading p{
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .my-work .all-project-link a{
+        display: block;
+    }
+    .my-work .all-project-link,
+    .my-work .heading .inner-heading{
+        float: initial;
+    }
+    .my-work .all-project-link .tag{
+        margin: 0 10px 5px 0;
+        border-radius: 10px;
+    }
+    .my-work .work-collection .list-one .project-item {
+        padding: 10px;
+    }
+    .my-work .work-collection .list-one {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    .my-work .work-collection{
+        margin: 0 -10px;
+    }
+    .my-work .work-collection .list-one .project-item .show-work-caption.project-wraper .project-block .inner .plus-icon{
+        display: none;
+    }
+    /****my portfolio START******/
+    section.my-work.portfolio{
+        padding: 150px 15px 0;
+    }
+    .portfolio .heading .inner-heading .go-down:before,
+    .portfolio .heading .inner-heading .go-down:after{
+        left: 0;
+    }
+    .portfolio .heading p {
+        margin: 0 0 0 20px;
+    }
+    .portfolio .work-collection .list-one {
+        grid-template-columns: 1fr 1fr;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .portfolio .work-collection .list-one .project-item {
+        padding: 15px;
+    }
+    .my-work .work-collection .list-one .project-item .project-wraper img,
+    .my-work .work-collection .list-one .project-item .project-wraper{
+        border-radius: 15px;
+    }
+
+    /****About me START****/
+    .aakash-bio{
+        padding: 8rem 10px 5rem;
+    }
+    .aakash-bio .about-me{
+        padding: 0;
+    }
+    .aakash-bio .about-me .about-txt h2{
+        font-size: 30px;
+    }
+    .aakash-bio .about-me .about-txt h2 span {
+        font-size: 34px;
+    }
+    .my-profile-mnone{
+        display: none;
+    }
+    .my-profile-mblock{
+        display: block;
+    }
+    .contact-card .contact-card-body{
+        padding: 40px 20px;
+    }
+    .contact-card .contact-card-body .txt{
+        padding: 20px 0;
+    }
+    .contact-card .contact-card-body h3{
+        font-size: 30px;
+        line-height: normal;
+    }
+    .contact-card .contact-card-body h4 a {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .contact-card .contact-card-body .logo-links,
+    .contact-card .contact-card-body .logo-links .card-links{
+        text-align: center;
+    }
+    .contact-card .contact-card-body .logo-links .card-links{
+        margin-top: 20px;
+    }
+    .aakash-bio .my-profile {
+        padding: 0;
+    }
+    
+    .contact-page .contact-form-wrapper .img{
+        padding: 0;
+        margin: 30px 0 0;
+    }
+    .contact-page .contact-form-wrapper .contact-form {
+        padding: 30px 0 0 0;
+    }
+    .contact-page .contact-form-wrapper .contact-form .title{
+        font-size: 60px;
+        padding: 0 0 0 45px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .title span{
+        -webkit-transform: translateX(-46px);
+        transform: translateX(-46px);
+    }
+    .contact-page .follow-me .social-links ul li {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    .contact-page .follow-me .social-links ul li a,
+    .contact-page .direct-mail .mail-id a,
+    .contact-page .direct-mail h2,
+    .contact-page .follow-me h2{
+        font-size: 14px;
+    }
+    .contact-page{
+        padding: 100px 0 40px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    .right-social-links ul li {
+        padding: 2px 0;
+    }
+    .right-social-links ul{
+        margin: -2px 0;
+    }
+    .right-social-links ul li a{
+        font-size: 18px;
+    }
+    .slider-portfolio .owl-carousel .owl-item img{
+        padding: 0 15px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .contact-page .contact-form-wrapper .img-txt .txt p a{
+        font-size: 14px;
+    }
+    .aakash-bio .about-me .about-txt h2 span {
+        font-size: 32px;
+    }
+    .aakash-bio .about-me .about-txt {
+        margin: 50px 0 0;
+    }
+    .contact-page .contact-form-wrapper{
+        padding: 20px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .form-inner {
+        margin: 70px 0 0;
+    }
+    .contact-page .contact-form-wrapper {
+        margin: 3rem 0;
+    }
+    .contact-page .contact-form-wrapper .contact-form .form-group .placeholder{
+        font-size: 15px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .title{
+        font-size: 40px;
+    }
+    .my-work .work-collection .list-one .project-item {
+        padding: 0 0 20px;
+    }
+    .my-work .work-collection .list-one {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .portfolio .work-collection .list-one{
+        grid-template-columns: 1fr;
+    }
+    .welcome-section .intro-text h2>span{
+        font-size: 30px;
+    }
+    .welcome-section .intro-text h2{
+        font-size: 50px;
+    }
+    .welcome-section .intro-text{
+        padding: 5rem 15px 0;
+    }
+    .welcome-section .second-me{
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        padding: 1rem;
+    }
+    .welcome-section .first-me .img img {
+        width: 160px;
+    }
+    .welcome-section .first-me .txt h2 {
+        font-size: 35px;
+    }
+    .welcome-section .hello-scrolldown{
+        bottom: 120px;
+    }
+    .welcome-section .intro-text .get-started a{
+        font-size: 12px;
+        width: 190px;
+        height: 60px;
+    }
+    .portfolio .portfolio-tabs ul li{
+        padding: 0 5px;
+    }
+    .portfolio .portfolio-tabs ul {
+        margin: 0 -5px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+    .portfolio .portfolio-tabs{
+        margin: 0;
+    }
+    .portfolio .portfolio-tabs ul li button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    .contact-card .contact-card-body h4 img {
+        margin-right: 0px;
+        width: 35px;
+        display: block;
+    }
+    .contact-card .contact-card-body h4 a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .contact-card .contact-card-body .logo-links .card-links ul li {
+        padding: 5px;
+    }
+    .contact-card .contact-card-body {
+        padding: 40px 15px;
+    }
+    .contact-page .contact-form-wrapper .contact-form .form-group {
+        margin-bottom: 35px;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 576px){
+    footer ul {
+        padding: 10px 0;
+        margin: 0 -10px;
+        text-align: center;
+    }
+    footer .col-sm-4.col-md-4.col-lg-4{
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    footer p{
+        text-align: center;
+    }
+    footer {
+        padding: 0 0 15px;
+    }
+    header nav .d-none-m{
+        display: none;
+    }
+    header nav .main-menu ul li a {
+        font-size: 40px;
+    }
+    header nav .nav-wrapper1{
+        padding: 30px;
+    }
+    .contact-page .contact-form-wrapper .img svg {
+        width: 80%;
+    }
+    footer .footer-bg{
+        padding: 90px 0 0;
+    }
+}
