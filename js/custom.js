@@ -177,6 +177,12 @@ $(document).ready(function(){
             $(this).parents('.form-group').addClass('p-text');
         }
     });
+	
+	/*****onclick send****/
+	
+     $('.contact-page .focus-input').on('focus',function(){
+	 window.location = "https://forms.gle/eddX5mXZfzbZ75r29";
+    });
     
     /*******validations********/
 //     $(document).on('click', '.EmailBtn', function(e) {
