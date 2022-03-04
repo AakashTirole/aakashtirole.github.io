@@ -179,61 +179,61 @@ $(document).ready(function(){
     });
     
     /*******validations********/
-    $(document).on('click', '.EmailBtn', function(e) {
-    e.preventDefault();
-    var fname = $('#fname').val();
-    var email = $("#email").val();
-    var number = $("#number").val();
-    var message = $("#message").val();
-    var email_pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
-    var regex = new RegExp(/^[0][0-9]\d{9}$|^[0-9]\d{9}$/);
+//     $(document).on('click', '.EmailBtn', function(e) {
+//         e.preventDefault();
+//         var fname = $('#fname').val();
+//         var email = $("#email").val();
+//         var number = $("#number").val();
+//         var message = $("#message").val();
+//         var email_pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+//         var regex = new RegExp(/^[0][0-9]\d{9}$|^[0-9]\d{9}$/);
 
-    if (fname == '' || fname == null) {
-        alert('full name required !');
-        return false;
-    } else if (email.trim() == '') {
-        alert('Enter Your Email Address !');
-        return false;
-    } else if (!email_pattern.test(email)) {
-        alert('Enter Your Valide Email Address !');
-        return false;
-    } else if (number == '') {
-        alert('fill mobile number');
-        return false;
-    } else if (!number.match(regex)) {
-        alert('only 10 digits');
-        return false;
-    } else if (message == '' || message == null) {
-        alert('message required !');
-        return false;
-    } else {
+//         if (fname == '' || fname == null) {
+//             alert('full name required !');
+//             return false;
+//         } else if (email.trim() == '') {
+//             alert('Enter Your Email Address !');
+//             return false;
+//         } else if (!email_pattern.test(email)) {
+//             alert('Enter Your Valide Email Address !');
+//             return false;
+//         } else if (number == '') {
+//             alert('fill mobile number');
+//             return false;
+//         } else if (!number.match(regex)) {
+//             alert('only 10 digits');
+//             return false;
+//         } else if (message == '' || message == null) {
+//             alert('message required !');
+//             return false;
+//         } else {
 
-        $('.EmailBtn').prop('disabled', true);
-        $('.EmailBtn').text('Please wait......');
+//             $('.EmailBtn').prop('disabled', true);
+//             $('.EmailBtn').text('Please wait......');
 
-        $.post("query_function.php", {
-            fname: fname,
-            email: email,
-            number: number,
-            message: message,
-            remark: 1
-        }, function(data) {
+//             $.post("query_function.php", {
+//                 fname: fname,
+//                 email: email,
+//                 number: number,
+//                 message: message,
+//                 remark: 1
+//             }, function(data) {
 
-            $('.EmailBtn').prop('disabled', false);
-            $('.EmailBtn').text('Submit');
+//                 $('.EmailBtn').prop('disabled', false);
+//                 $('.EmailBtn').text('Submit');
 
-            if (data.response == 1) {
-                alert(data.msg);
-                setTimeout(function() {
-                    // window.location.href = "index.html";
-                    $(".new-from").trigger('reset');
-                }, 100);
-            } else {
-                alert('Your request has been sent successfully.');
-            }
-        }, "json");
-    }
-    });
+//                 if (data.response == 1) {
+//                     alert(data.msg);
+//                     setTimeout(function() {
+//                         // window.location.href = "index.html";
+//                         $(".new-from").trigger('reset');
+//                     }, 100);
+//                 } else {
+//                     alert('Your request has been sent successfully.');
+//                 }
+//             }, "json");
+//         }
+//     });
 });
 
 $(function(){
@@ -244,9 +244,9 @@ $('.js-tilt').tilt({
     scale: 1.1
 })
 
-$(document).ready(function(){   
-    $('[title*="000webhost"]').css('display','none');
-});
+// $(document).ready(function(){   
+//     $('[title*="000webhost"]').css('display','none');
+// });
 
 /**carousel**/
 $('.slider-portfolio .owl-carousel').owlCarousel({
