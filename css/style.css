@@ -208,7 +208,7 @@ header .toggle button{
   padding: 0;
   background: transparent;
   height: 40px;
-  width: 40px;
+  width: 50px;
   position: relative;
   color: #050505;
 }
@@ -258,7 +258,7 @@ header .toggle button .txt {
   transform: rotate(-90deg);
   display: block;
   position: absolute;
-  left: 0;
+  left: 8px;
 }
 header .toggle button .txt span {
   display: inline-block;
