@@ -17,6 +17,10 @@ $(document).ready(function(){
         }
 
     });
+	
+    $('.portfolio-tabs ul li').click(function(e) {
+	$(this).addClass('active').siblings().removeClass('active');
+    });
 });
 /*************/
 
