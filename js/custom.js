@@ -181,7 +181,7 @@ $(document).ready(function(){
 	/*****onclick send****/
 	
      $('.contact-page .focus-input').on('focus',function(){
-	 window.location = "https://docs.google.com/forms/d/1ukIUFmIhDkD-k5yN7CxfzqWmj4Bo_Qvkb04OO4zoLpg/edit?usp=sharing";
+	 window.location = "https://docs.google.com/forms/d/e/1FAIpQLSe1CKt6H68SSWzYLeGKruQhWyI-9aDIsS7o3z-7GMUB591HFQ/viewform?usp=sf_link";
     });
     
     /*******validations********/
